@@ -1,4 +1,4 @@
-const googleAppsScriptUrl = 'https://script.google.com/macros/s/AKfycbxHALw_TivLfpSTpVD0-Vqggx9cVlWkAS5lsPr4nJ2SylGV6CYGIwVFuw_gEsdFbAGP/exec';
+const googleAppsScriptUrl = 'https://script.google.com/macros/s/AKfycbxeJLDGjoJwVSZADZ3pNbc3Di4IZD7AQ7HIXdA0oDW1h9RF-jf2lW4oC7yli6gaAaE6/exec';
 
 fetch(googleAppsScriptUrl)
     .then(response => response.json())
