@@ -3,26 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://satou-server.github.io/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>砂糖鯖</title>
-    <script>
-        if (location.href==='https://satou-server.github.io/index.html'||location.href==='https://satou-server.github.io/index')
-            window.location.replace('https://satou-server.github.io/')
-    </script>
 </head>
 <body>
+    <!-- <script src="./js/html/header.js"></script> -->
     <main>
         <div id="top">
             <div id="server-members-list">
-                <p>メンバー: <span id="server-members">51</span></p>
-                <p>オンライン: <span id="server-actives">12</span></p>
+                <p id="server-members">メンバー: <span>1.1K</span></p>
+                <p id="server-actives">オンライン: <span>500</span></p>
                 <button id="invite_button">招待を受ける</button>
             </div>
             <div id="server-info">
                 <p>サーバー INFO</p>
                 <ul>
                     <li>開設日: 2024年 1月 23日</li>
-                    <li>サーバーブースト: <span id="server-boostlv">2</span> lv</li>
+                    <li id="server-boost">サーバーブースト: <span>3</span> lv</li>
                     <li>サーバー独自Bot: あり</li>
                 </ul>
             </div>
@@ -31,8 +28,8 @@
             <div id="main">
                 <div></div>
                 <div id="server-main">
-                    <div id="server-icon">
-                        <img src="/img/server_icon.png" id="server-icon-img">
+                    <div>
+                        <img src="./img/server-icon.png" class="server-icon">
                     </div>
                     <div>
                         <h1>砂糖鯖</h1>
@@ -47,7 +44,8 @@
             </div>
         </div>
     </main>
-    <script src="js/html/footer.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./js/html/footer.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/gas.js"></script>
 </body>
 </html>
