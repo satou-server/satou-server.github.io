@@ -1,4 +1,4 @@
-const googleAppsScriptUrl = 'https://script.google.com/macros/s/AKfycbxkFUsIQRzE9kHTd8JBcaEGCi0nATQ7l8eogL4lWXOrk7i3rZJXfhHqOTo7wAEydluf/exec';
+const googleAppsScriptUrl = 'https://script.google.com/macros/s/AKfycbzdj-WPE4zVcn5MTohDfMAc53zKUm8RtSKbVYU78dmIADWjC3wbh-ZZBQ5LtEdL6xn7/exec';
 
 // ランダムなコールバック関数名を生成
 const callbackName = 'callback_' + Math.floor(Math.random() * 10000);
