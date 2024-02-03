@@ -1,5 +1,5 @@
 
-![Server Icon](./img/server-icon.png)
+<img src="./img/server-icon.png" width="320px">
 
 # 砂糖鯖とは
 2024/01/24(火)から始まったDiscordコミュニティサーバー！！
